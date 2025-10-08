@@ -2,7 +2,7 @@ import React from 'react';
 import "./Banner.css"
 const Banner = () => {
     return (
-        <div className='text-center mt-[60px]'>
+        <div className='text-center bg-[#F5F5F5] pt-[60px] '>
             <h1 className='text-[60px] banner-title font-bold '>We Build<br /><span className='text-[#9F62F2]' >Productive</span> Apps</h1>
             <p className='text-[#627382] banner-info text-[17px]' >At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br className='hide' /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className='mt-4' >

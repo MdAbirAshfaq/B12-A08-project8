@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Navbar.css"
+import { Link, NavLink } from 'react-router';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 w-11/12 m-auto ">
+            <div className="navbar w-11/12 m-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,23 +12,23 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1  mt-3 w-52 p-2 shadow">
         <li className='mx-4' >Home</li>
         <li className='mx-4' >Apps</li>
         <li className='mx-2' >Installation</li>
       </ul>
     </div>
-    <a className="btn hover:bg-white font-bold btn-ghost text-[#9F62F2] text-xl"> <img className='w-[45px] h-[45px]' src="/src/assets/logo.png" alt="logo" />HERO.IO</a>
+    <a className="btn hover:bg-white font-bold  btn-ghost text-[#9F62F2] text-xl"> <img  className='w-[45px]  h-[45px]' src="/src/assets/logo.png" alt="logo" />HERO.IO</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-center  hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li className='mx-4' >Home</li>
-      <li className='mx-4' >Apps</li>
-      <li className='mx-2' >Installation</li>
+      <NavLink to="/" className={({ isActive }) => isActive ? 'text-[#9F62F2] font-bold border-b-2' : ''} ><li className='mx-4' >Home</li></NavLink>
+      <NavLink to="/Apps" className={({ isActive }) => isActive ? 'text-[#9F62F2] font-bold border-b-2' : ''} ><li className='mx-4' >Apps</li></NavLink>
+      <NavLink to="/Installation" className={({ isActive }) => isActive ? 'text-[#9F62F2] font-bold border-b-2' : ''}><li className='mx-2' >Installation</li></NavLink>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] "><i class="fa-brands fa-github"></i>Contribute</a>
+  <div className="navbar-end ">
+    <a className="btn  text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] "><i class="fa-brands fa-github"></i>Contribute</a>
   </div>
 </div>
         </div>

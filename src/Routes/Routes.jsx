@@ -5,6 +5,8 @@ import Root from '../Pages/Roots/Root';
 import Error from '../Pages/ErrorPage/Error';
 import Home from '../Pages/Home/Home';
 import { Component } from 'react';
+import Apps from '../Pages/Apps/Apps';
+import Installation from '../Pages/Installation/Installation';
 
 export const router = createBrowserRouter([
   {
@@ -14,9 +16,17 @@ export const router = createBrowserRouter([
     children: [
         {
             index: true,
+            loader: ()=> fetch('App.json'),
             path: "/",
             Component: Home,
-           
+        },
+        {
+          path: "/Apps",
+          Component: Apps
+        },
+        {
+          path: "/Installation",
+          Component: Installation
         }
     ]
   },
