@@ -1,7 +1,7 @@
 import React from 'react';
 
-const App = () => {
-    
+const App = ({data}) => {
+    console.log(data)
     return (
         <div>
             <h1>app</h1>
