@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SingleApp.css"
 
 const SingleApp = ({onlyApp}) => {
     console.log(onlyApp)
@@ -8,7 +9,7 @@ const SingleApp = ({onlyApp}) => {
 
     return (
         <div className='bg-[#F5F5F5]' >
-            <div className="card bg-base-100 mb-[20px] w-[320px] h-[390px] shadow-sm">
+            <div className="card bg-base-100 mb-[20px] main-div w-[320px] h-[390px] shadow-sm">
   <figure>
     <img
       className='w-[250px] h-[250px] pt-[20px] '
