@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px){
+.error-img{
+    height: 400px;
+}
+.error-title{
+    font-size: 30px;
+}
+.error-info{
+    font-size: 14px;
+}
+}
