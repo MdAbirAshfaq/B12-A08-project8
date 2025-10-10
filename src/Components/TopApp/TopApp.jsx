@@ -17,7 +17,7 @@ const TopApp = ({data}) => {
             </Suspense>
             </div>
         </div>
-        <div className='mb-[50px] bg-[#F5F5F5]'>
+        <div className=' bg-[#F5F5F5]'>
         <Link to="/Apps">
         <button  className="btn mt-2  text-white flex m-auto bg-linear-to-r from-[#632EE3] to-[#9F62F2] ">Show All</button>
         </Link>

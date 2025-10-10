@@ -14,7 +14,7 @@ const App = ({ appData }) => {
     <img
       className='w-[250px] h-[250px] pt-[20px] '
       src={image}
-      alt="Shoes" />
+      alt="" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">

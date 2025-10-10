@@ -1,16 +1,33 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import RatingChart from '../RatingChart/RatingChart';
+import { useInstalledApps } from '../InstalledAppsContext/InstalledAppsContext';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { id } = useParams();
     const appId = parseInt(id, 10);
     const data = useLoaderData();
     const singleApp = data.find(app => app.id === appId);
+    
+    const { installApp, isInstalled } = useInstalledApps();
+    const installed = isInstalled(appId);
 
     if (!singleApp) {
         return <div>App not found</div>;
     }
+
+    const handleInstall = () => {
+        installApp(singleApp);
+        toast.success(`${singleApp.title} installed successfully!`, {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+        });
+    };
 
     return (
         <div className='border-b-1 border-[#00193130] w-11/12 m-auto pb-[35px]'>
@@ -38,10 +55,24 @@ const AppDetails = () => {
                             <h3 className='text-[#001931] font-extrabold text-[35px]'>{(singleApp.reviews / 1000).toFixed(0)}K</h3>
                         </div>
                     </div>
-                    <button className='bg-[#00D390] text-white font-semibold p-[12px] rounded-[4px]'>Install now ({singleApp.size}mb)</button>
+                    <button 
+                        onClick={handleInstall}
+                        disabled={installed}
+                        className={`${
+                            installed 
+                                ? 'bg-gray-400 cursor-not-allowed' 
+                                : 'bg-[#00D390] hover:bg-[#00b87a]'
+                        } text-white font-semibold p-[12px] rounded-[4px] transition-colors mt-4`}
+                    >
+                        {installed ? 'Installed' : `Install now (${singleApp.size}mb)`}
+                    </button>
                 </div>
             </div>
             <RatingChart ratings={singleApp.ratings} />
+            <div className='mt-8'>
+                <h3 className='font-semibold text-[20px] mb-5'>Description</h3>
+                <p className='text-[#627382] leading-relaxed'>{singleApp.description}</p>
+            </div>
         </div>
     );
 };

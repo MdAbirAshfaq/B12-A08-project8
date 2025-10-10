@@ -1,6 +1,7 @@
 import React, { Suspense, useState } from 'react';
 import App from '../App/App';
 import { useLoaderData } from 'react-router';
+import AppNotFound from '../AppNotFound/AppNotFound';
 // import { useLoaderData } from 'react-router-dom';
 
 const Apps = () => {
@@ -24,8 +25,8 @@ const Apps = () => {
                 </div>
             </div>
             <div className='grid grid-cols-4 mt-[30px] w-11/12 m-auto' >
-                <Suspense fallback={<div>Loading...</div>}>
-                    {filteredData.length > 0 ? (filteredData.map((appData) => (<App key={appData.id} appData={appData} />))) : ( <p className="text-center col-span-4 text-gray-500">No apps found.</p>)}
+                <Suspense fallback={<span className="loading loading-spinner text-success"></span>}>
+                    {filteredData.length > 0 ? (filteredData.map((appData) => (<App key={appData.id} appData={appData} />))) : <div className='col-span-4' > <AppNotFound></AppNotFound></div> }
                 </Suspense>
             </div>
         </div>
@@ -33,3 +34,7 @@ const Apps = () => {
 };
 
 export default Apps;
+
+
+
+

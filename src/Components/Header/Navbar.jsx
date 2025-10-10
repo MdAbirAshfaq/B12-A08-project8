@@ -20,7 +20,7 @@ const Navbar = () => {
         <li className='mx-2' >Installation</li>
       </ul>
     </div>
-    <a className="btn hover:bg-white font-bold  btn-ghost text-[#9F62F2] text-xl"> <img  className='w-[45px]  h-[45px]' src="/src/assets/logo.png" alt="logo" />HERO.IO</a>
+    <Link to="/"> <a className="btn hover:bg-white font-bold  btn-ghost text-[#9F62F2] text-xl"> <img  className='w-[45px]  h-[45px]' src="/src/assets/logo.png" alt="logo" />HERO.IO</a> </Link>
   </div>
   <div className="navbar-center  hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
