@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "/src/assets/Image/Notion-logo.svg.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+    "size": 62.3,
+    "reviews": 120000,
+    "ratingAvg": 4.7,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 57500 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/src/assets/Image/UY7DlO0a_400x400.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "description": "Collaborate, manage projects, and reach productivity peaks.",
+    "size": 45.2,
+    "reviews": 98000,
+    "ratingAvg": 4.5,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/src/assets/Image/image.png",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "description": "Task manager and to-do list app to organize your work and life.",
+    "size": 39.8,
+    "reviews": 87500,
+    "ratingAvg": 4.6,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 41000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/src/assets/Image/images.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "description": "Note taking app for organizing ideas, tasks, and schedules.",
+    "size": 71.5,
+    "reviews": 65000,
+    "ratingAvg": 4.3,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/src/assets/Image/images (1).png",
+    "title": "RescueTime",  
+    "companyName": "RescueTime, Inc.",
+    "description": "Automatic time tracking software for productivity insights.",
+    "size": 28.1,
+    "reviews": 42000,
+    "ratingAvg": 4.4,
+    "downloads": 1.2,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/src/assets/Image/Microsoft_To-Do_icon.svg.png",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft Corporation",
+    "description": "Smart daily planner to manage your tasks efficiently.",
+    "size": 35.0,
+    "reviews": 88000,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "/src/assets/Image/Asana-Symbol.png",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "description": "Work manager app for teams to organize and track projects.",
+    "size": 55.4,
+    "reviews": 74000,
+    "ratingAvg": 4.5,
+    "downloads": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 37000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "/src/assets/Image/Google_Keep_2020_Logo.svg.png",
+    "title": "Google Keep",
+    "companyName": "Google LLC",
+    "description": "Fast and flexible note-taking and list app from Google.",
+    "size": 23.9,
+    "reviews": 190000,
+    "ratingAvg": 4.7,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 104000 }
+    ]
+},
+{
+    "id": 9,
+    "image": "/src/assets/Image/apps.25317.14049653041316721.d9820d3e-d19f-4992-96b4-dcb6852fadd2.png",
+    "title": "Focus To-Do",
+    "companyName": "SuperElement Soft",
+    "description": "A productivity app combining Pomodoro timer and task management for focus and efficiency.",
+    "size": 29.6,
+    "reviews": 51000,
+    "ratingAvg": 4.5,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 24000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "/src/assets/Image/unnamed.png",
+    "title": "Clockify",
+    "companyName": "COING Inc.",
+    "description": "Time tracking and project management tool for monitoring work hours, productivity, and team performance.",
+    "size": 34.0,
+    "reviews": 37000,
+    "ratingAvg": 4.4,
+    "downloads": 1.7,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "/src/assets/Image/unnamed (1).png",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "description": "Stay focused by growing a virtual tree, with rewards for staying off your phone and being productive.",
+    "size": 41.3,
+    "reviews": 91000,
+    "ratingAvg": 4.8,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 59000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "/src/assets/Image/a5abcfcd454fc500e0a93ac9268563b8994316be0384729eec299ffdcec18b7d_200.webp",
+    "title": "TickTick",
+    "companyName": "Appest Inc.",
+    "description": "Task manager and to-do list app that combines scheduling, reminders, and habit tracking for better productivity.",
+    "size": 32.7,
+    "reviews": 67000,
+    "ratingAvg": 4.6,
+    "downloads": 2.8,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 35500 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/src/assets/Image/any do.jpeg",
+    "title": "Any.do",
+    "companyName": "Any.do",
+    "description": "Task & calendar integration, reminders, daily planner and shared lists for organizing both work and life.",
+    "size": 32.1,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": 40.2,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 83000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/src/assets/Image/Workflowy_Logo.jpg",
+    "title": "WorkFlowy",
+    "companyName": "WorkFlowy, Inc.",
+    "description": "Minimalist outliner and nested list tool for capturing ideas, organization, and hierarchical notes.",
+    "size": 25.3,
+    "reviews": 90000,
+    "ratingAvg": 4.6,
+    "downloads": 20.4,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 43000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/src/assets/Image/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Team communication hub with channels, direct messages, file sharing, search, and integrations for better collaboration.",
+    "size": 52.7,
+    "reviews": 300000,
+    "ratingAvg": 4.2,
+    "downloads": 65.4,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 22000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 123000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/src/assets/Image/Airtable.png",
+    "title": "Airtable",
+    "companyName": "Airtable",
+    "description": "Flexible spreadsheet‑database hybrid for organizing workflows, tracking projects, and collaborating in multiple views like grid, calendar, gallery.",
+    "size": 60.8,
+    "reviews": 90000,
+    "ratingAvg": 4.5,
+    "downloads": 18.2,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/src/assets/Image/Habitica.png",
+    "title": "Habitica",
+    "companyName": "Habitica, Inc.",
+    "description": "Gamified task & habit tracker; complete real‑life tasks to earn rewards, level up, and stay motivated.",
+    "size": 45.1,
+    "reviews": 80000,
+    "ratingAvg": 4.3,
+    "downloads": 15.0,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+   {
+    "id": 18,
+    "image": "/src/assets/Image/Freedom.avif",
+    "title": "Freedom",
+    "companyName": "Eighty Percent Solutions, Inc.",
+    "description": "Distraction blocker that blocks apps, websites or the internet to help reduce digital distraction and increase focus.",
+    "size": 15.7,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": 12.4,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+  "id": 19,
+  "image": "/src/assets/Image/Muslim pro.png",
+  "title": "Muslim Pro",
+  "companyName": "Bitsmedia",
+  "description": "All-in-one Islamic app offering accurate prayer times, Quran with audio, Qibla direction, fasting tracker, and Islamic calendar.",
+  "size": 38.2,
+  "reviews": 220000,
+  "ratingAvg": 4.6,
+  "downloads": 100.0,
+  "ratings": [
+    { "name": "1 star", "count": 8000 },
+    { "name": "2 star", "count": 10000 },
+    { "name": "3 star", "count": 20000 },
+    { "name": "4 star", "count": 40000 },
+    { "name": "5 star", "count": 142000 }
+  ]
+},
+{
+  "id": 20,
+  "image": "/src/assets/Image/fiton.png",
+  "title": "FitOn",
+  "companyName": "FitOn Inc.",
+  "description": "Fitness app offering free home workouts, personalized fitness plans, guided meditations, and meal planning — all in one place.",
+  "size": 52.3,
+  "reviews": 145000,
+  "ratingAvg": 4.8,
+  "downloads": 15.7,
+  "ratings": [
+    { "name": "1 star", "count": 3000 },
+    { "name": "2 star", "count": 4500 },
+    { "name": "3 star", "count": 8000 },
+    { "name": "4 star", "count": 35000 },
+    { "name": "5 star", "count": 94500 }
+  ]
+}
+]

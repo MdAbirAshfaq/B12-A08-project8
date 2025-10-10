@@ -22,7 +22,10 @@ export const router = createBrowserRouter([
             Component: Home,
         },
         {
-          loader: () => fetch('App.json'),
+          loader: async () => {
+          const response = await fetch('AllApp.json');
+          return response.json();
+          },
           path: "/Apps",
           Component: Apps,
         },

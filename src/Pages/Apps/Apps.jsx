@@ -1,9 +1,11 @@
 import React, { Suspense } from 'react';
 import App from '../App/App';
 import { useLoaderData } from 'react-router';
+// import { useLoaderData } from 'react-router-dom';
 
 const Apps = () => {
-    const data = useLoaderData;
+    const data = useLoaderData();
+console.log("Loader Data:", data);
     return (
         <div className='bg-[#F5F5F5]' >
             <h1 className='text-[#001931] font-bold text-[42px] text-center pt-[50px]' >Our All Applications</h1>
@@ -16,7 +18,11 @@ const Apps = () => {
                     <input type="search"  name="" id="" placeholder='Search Apps' className='pl-5 ' />
                 </div>
             </div>
-            <App></App>
+            <div className='grid grid-cols-4 mt-[30px] w-11/12 m-auto' >
+                <Suspense fallback={<div>Loading...</div>}>
+                    {Array.isArray(data) ? (data.map((appData) => (<App key={appData.id} appData={appData} />))) : (<p>No apps found</p>)}
+                    </Suspense>
+            </div>
         </div>
     );
 };
