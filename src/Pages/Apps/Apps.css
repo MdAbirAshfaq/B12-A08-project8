@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px){
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+}
+@media screen and (max-width: 1200px){
+
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+}
