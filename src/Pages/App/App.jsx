@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const App = ({ appData }) => {
     console.log("App Data:", appData); 
@@ -6,6 +7,7 @@ const App = ({ appData }) => {
     const {image, title, companyName, description, id ,downloads, ratingAvg} = appData
     return (
         <div>
+          <Link to={`/AppDetails/${id}`} >
               <div className='bg-[#F5F5F5]  hover:scale-105' >
             <div className="card bg-base-100 mb-[20px] w-[320px] h-[390px] shadow-sm">
   <figure>
@@ -26,6 +28,7 @@ const App = ({ appData }) => {
   </div>
 </div>
         </div>
+        </Link>
         </div>
     );
 };

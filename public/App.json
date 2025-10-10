@@ -214,5 +214,149 @@
       { "name": "4 star", "count": 18000 },
       { "name": "5 star", "count": 35500 }
     ]
-  }
+  },
+  {
+    "id": 13,
+    "image": "/src/assets/Image/any do.jpeg",
+    "title": "Any.do",
+    "companyName": "Any.do",
+    "description": "Task & calendar integration, reminders, daily planner and shared lists for organizing both work and life.",
+    "size": 32.1,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": 40.2,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 83000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "/src/assets/Image/Workflowy_Logo.jpg",
+    "title": "WorkFlowy",
+    "companyName": "WorkFlowy, Inc.",
+    "description": "Minimalist outliner and nested list tool for capturing ideas, organization, and hierarchical notes.",
+    "size": 25.3,
+    "reviews": 90000,
+    "ratingAvg": 4.6,
+    "downloads": 20.4,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 43000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "/src/assets/Image/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Team communication hub with channels, direct messages, file sharing, search, and integrations for better collaboration.",
+    "size": 52.7,
+    "reviews": 300000,
+    "ratingAvg": 4.2,
+    "downloads": 65.4,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 22000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 123000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "/src/assets/Image/Airtable.png",
+    "title": "Airtable",
+    "companyName": "Airtable",
+    "description": "Flexible spreadsheet‑database hybrid for organizing workflows, tracking projects, and collaborating in multiple views like grid, calendar, gallery.",
+    "size": 60.8,
+    "reviews": 90000,
+    "ratingAvg": 4.5,
+    "downloads": 18.2,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "/src/assets/Image/Habitica.png",
+    "title": "Habitica",
+    "companyName": "Habitica, Inc.",
+    "description": "Gamified task & habit tracker; complete real‑life tasks to earn rewards, level up, and stay motivated.",
+    "size": 45.1,
+    "reviews": 80000,
+    "ratingAvg": 4.3,
+    "downloads": 15.0,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+   {
+    "id": 18,
+    "image": "/src/assets/Image/Freedom.avif",
+    "title": "Freedom",
+    "companyName": "Eighty Percent Solutions, Inc.",
+    "description": "Distraction blocker that blocks apps, websites or the internet to help reduce digital distraction and increase focus.",
+    "size": 15.7,
+    "reviews": 50000,
+    "ratingAvg": 4.6,
+    "downloads": 12.4,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 22000 }
+    ]
+  },
+  {
+  "id": 19,
+  "image": "/src/assets/Image/Muslim pro.png",
+  "title": "Muslim Pro",
+  "companyName": "Bitsmedia",
+  "description": "All-in-one Islamic app offering accurate prayer times, Quran with audio, Qibla direction, fasting tracker, and Islamic calendar.",
+  "size": 38.2,
+  "reviews": 220000,
+  "ratingAvg": 4.6,
+  "downloads": 100.0,
+  "ratings": [
+    { "name": "1 star", "count": 8000 },
+    { "name": "2 star", "count": 10000 },
+    { "name": "3 star", "count": 20000 },
+    { "name": "4 star", "count": 40000 },
+    { "name": "5 star", "count": 142000 }
+  ]
+},
+{
+  "id": 20,
+  "image": "/src/assets/Image/fiton.png",
+  "title": "FitOn",
+  "companyName": "FitOn Inc.",
+  "description": "Fitness app offering free home workouts, personalized fitness plans, guided meditations, and meal planning — all in one place.",
+  "size": 52.3,
+  "reviews": 145000,
+  "ratingAvg": 4.8,
+  "downloads": 15.7,
+  "ratings": [
+    { "name": "1 star", "count": 3000 },
+    { "name": "2 star", "count": 4500 },
+    { "name": "3 star", "count": 8000 },
+    { "name": "4 star", "count": 35000 },
+    { "name": "5 star", "count": 94500 }
+  ]
+}
 ]
