@@ -24,7 +24,7 @@ const Apps = () => {
                     <input type="search" value={search} onChange={(e) => setSearch(e.target.value)} placeholder='Search Apps' className='pl-5 ' />
                 </div>
             </div>
-            <div className='grid grid-cols-4 mt-[30px] main-div w-11/12 m-auto' >
+            <div className='grid grid-cols-4 mt-[30px] ok miv w-11/12 m-auto' >
                 <Suspense fallback={<span className="loading loading-spinner text-success"></span>}>
                     {filteredData.length > 0 ? (filteredData.map((appData) => (<App key={appData.id} appData={appData} />))) : <div className='col-span-4' > <AppNotFound></AppNotFound></div> }
                 </Suspense>

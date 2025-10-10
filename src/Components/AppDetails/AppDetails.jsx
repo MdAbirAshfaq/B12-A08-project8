@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router';
 import RatingChart from '../RatingChart/RatingChart';
 import { useInstalledApps } from '../InstalledAppsContext/InstalledAppsContext';
 import { toast } from 'react-toastify';
+import "./AppDetails.css"
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -19,19 +20,11 @@ const AppDetails = () => {
 
     const handleInstall = () => {
         installApp(singleApp);
-        toast.success(`${singleApp.title} installed successfully!`, {
-            position: "top-right",
-            autoClose: 3000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-        });
-    };
+        toast.success(`${singleApp.title} installed successfully!`, {position: "top-right", autoClose: 3000,hideProgressBar: false,closeOnClick: true,pauseOnHover: true,draggable: true,});};
 
     return (
         <div className='border-b-1 border-[#00193130] w-11/12 m-auto pb-[35px]'>
-            <div className='flex justify-start w-10/12 m-auto border-b-1 pb-[20px] border-gray-300 gap-[50px] mt-[60px]'>
+            <div className='flex justify-start w-10/12 m-auto border-b-1 pb-[20px] no border-gray-300 gap-[50px] mt-[60px]'>
                 <img className='w-[280px] h-[300px]' src={singleApp.image} alt='' />
                 <div>
                     <div className='border-b-1 border-[#00193130] mb-[40px]'>
@@ -55,16 +48,7 @@ const AppDetails = () => {
                             <h3 className='text-[#001931] font-extrabold text-[35px]'>{(singleApp.reviews / 1000).toFixed(0)}K</h3>
                         </div>
                     </div>
-                    <button 
-                        onClick={handleInstall}
-                        disabled={installed}
-                        className={`${
-                            installed 
-                                ? 'bg-gray-400 cursor-not-allowed' 
-                                : 'bg-[#00D390] hover:bg-[#00b87a]'
-                        } text-white font-semibold p-[12px] rounded-[4px] transition-colors mt-4`}
-                    >
-                        {installed ? 'Installed' : `Install now (${singleApp.size}mb)`}
+                    <button onClick={handleInstall}disabled={installed}className={`${installed ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00D390] hover:bg-[#00b87a]'} text-white font-semibold p-[12px] rounded-[4px] transition-colors mt-4`}>{installed ? 'Installed' : `Install now (${singleApp.size}mb)`}
                     </button>
                 </div>
             </div>

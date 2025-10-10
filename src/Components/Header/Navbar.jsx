@@ -15,9 +15,9 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1  mt-3 w-52 p-2 shadow">
-        <li className='mx-4' >Home</li>
-        <li className='mx-4' >Apps</li>
-        <li className='mx-2' >Installation</li>
+          <NavLink to='/' ><li className='mx-4' >Home</li></NavLink>
+          <NavLink to='/Apps' ><li className='mx-4' >Apps</li></NavLink>
+          <NavLink to='/Installation' ><li className='mx-2' >Installation</li></NavLink>
       </ul>
     </div>
     <Link to="/"> <a className="btn hover:bg-white font-bold  btn-ghost text-[#9F62F2] text-xl"> <img  className='w-[45px]  h-[45px]' src="/src/assets/logo.png" alt="logo" />HERO.IO</a> </Link>
