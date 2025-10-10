@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import SingleApp from '../SingleApp/SingleApp';
 import "./TopApp.css"
+import { Link } from 'react-router';
 
 const TopApp = ({data}) => {
     return (
@@ -17,7 +18,9 @@ const TopApp = ({data}) => {
             </div>
         </div>
         <div className='mb-[50px] bg-[#F5F5F5]'>
+        <Link to="/Apps">
         <button  className="btn mt-2  text-white flex m-auto bg-linear-to-r from-[#632EE3] to-[#9F62F2] ">Show All</button>
+        </Link>
         </div>
         </div>
     );

@@ -1,14 +1,4 @@
-# 🦸‍♂️ Assignment 008 — Hero IO
 
-### 📅 Deadline For 60 marks: 09 October , 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 10 October , 2025 (11:59 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 10 October , 2025.
-
----
-## Private Repo-Link : please create your own public repository for this assignment.
----
 
 # 🐣 Basic Requirements
 
@@ -24,12 +14,6 @@
 
 ## 1. 🧱 Layout & Data Design
 
-#### Header
-
-- The header must include:
-  - A logo.on clicking it user will be navigated to home page.
-  - A navigation bar with links [ `home` , `apps` , `installation` ] and active route indication.
-  - A `Contribution` button as Figma linking to the your GitHub profile.
 
 #### Footer
 

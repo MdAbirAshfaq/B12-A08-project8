@@ -2,6 +2,8 @@ import React from 'react';
 import "./Navbar.css"
 import { Link, NavLink } from 'react-router';
 const Navbar = () => {
+
+
     return (
         <div>
             <div className="navbar border-b-1 border-gray-200 w-11/12 m-auto ">
@@ -28,7 +30,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end ">
-    <a className="btn  text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] "><i class="fa-brands fa-github"></i>Contribute</a>
+    <a href='https://github.com/MdAbirAshfaq/B12-A08-project8' className="btn  text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] "><i class="fa-brands fa-github"></i>Contribute</a>
   </div>
 </div>
         </div>
